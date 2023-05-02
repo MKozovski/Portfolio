@@ -1,0 +1,52 @@
+footer {
+    background-color: #b6caa2;
+
+    .copyright {
+        background-color: #365c46;
+        display: flex;
+        text-align: center;
+        height: 60px;
+        color: white;
+        p {
+            margin: auto;
+            vertical-align: middle;
+        }
+    }
+}
+
+ button {
+     padding: 10px 30px;
+     background-color: #db9999;
+     border: none;
+     transition: all 0.6s ease;
+     margin: 10px 0;
+
+     &:hover {
+         cursor: pointer;
+         transform: scale(1.2);
+     }
+
+     &:active {
+         box-shadow: inset -2px -2px 3px rgba(255, 255, 255)
+     }
+ }
+
+ .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    text-align: center;
+    margin: auto;
+    ul {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        margin: 50px 0;
+        padding: 0;
+        a {
+            color: white;
+        }
+    }
+ }

@@ -1,0 +1,90 @@
+.profile-pic img {
+    border-radius: 50%;
+    height: 250px;
+
+}
+
+#about {
+    background-color: #f8f4f3;
+}
+
+.about {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#skills {
+    height: 60vh;
+    background-color: #365346;
+    color: #f8f4f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-section {
+    text-align: center;
+
+    h2 {
+        padding-bottom: 60px;
+    }
+}
+
+.skill-icons ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 60px;
+    text-align: center;
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.project-section {
+    height: 100vh;
+    background-color: #f8f4f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    h2 {
+        margin: 20px auto;
+    }
+}
+
+.projects {
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 55%;
+    }
+}
+
+.project-info {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.projects {
+    margin: 30px;
+    height: 45%;
+    width: 40%;
+    background-color: white;
+
+    .project-text {
+        margin: 20px;
+    }
+}
