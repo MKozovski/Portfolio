@@ -272,7 +272,7 @@ header {
   background: url(../assets/pexels-cátia-matos-1072179.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 1200px;
   display: flex;
   color: #f8f4f3;
 }
@@ -323,7 +323,7 @@ nav ul a {
 }
 
 .about {
-  height: 60vh;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,7 +331,7 @@ nav ul a {
 }
 
 #skills {
-  height: 60vh;
+  height: 800px;
   background-color: #365346;
   color: #f8f4f3;
   display: flex;
@@ -360,7 +360,7 @@ nav ul a {
 }
 
 .project-section {
-  height: 100vh;
+  height: 1300px;
   background-color: #f8f4f3;
   display: flex;
   flex-direction: column;
@@ -431,7 +431,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 300px;
   text-align: center;
   margin: auto;
 }
@@ -446,9 +446,20 @@ button:active {
   color: white;
 }
 
-@media (max-width: 1100px) {
+@media (min-width: 1201px) {
+  .project-section {
+    height: 1800px;
+  }
+  .projects {
+    width: 40%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 35%;
+  }
+}
+@media (max-width: 1200px) {
   #skills {
-    height: 90vh;
+    height: 900px;
   }
   .projects {
     height: 40%;
@@ -466,7 +477,7 @@ button:active {
     text-align: center;
   }
   #skills {
-    height: 100vh;
+    height: 1200px;
   }
   #skills ul {
     padding: 0;
