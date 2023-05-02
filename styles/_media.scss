@@ -29,11 +29,12 @@
     }
 }
 
+@media (max-width: 950px) {
+
+}
+
 @media (max-width: 720px) {
 
-    body {
-        text-align: center;
-    }
 
     #skills {
         height: 1200px;
@@ -142,6 +143,15 @@
 
     .profile-pic img {
         height: 200px;
+    }
+
+    .header-text {
+        justify-content: center;
+
+        h1, h3 {
+            margin: 10px;
+        }
+
     }
 
     #skills {

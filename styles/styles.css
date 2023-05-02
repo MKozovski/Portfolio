@@ -241,6 +241,7 @@ body {
   font-size: 1.5rem;
   font-family: "lora";
   font-weight: medium;
+  text-align: center;
 }
 
 h1 {
@@ -473,9 +474,6 @@ button:active {
   }
 }
 @media (max-width: 720px) {
-  body {
-    text-align: center;
-  }
   #skills {
     height: 1200px;
   }
@@ -555,6 +553,12 @@ button:active {
 @media (max-width: 445px) {
   .profile-pic img {
     height: 200px;
+  }
+  .header-text {
+    justify-content: center;
+  }
+  .header-text h1, .header-text h3 {
+    margin: 10px;
   }
   #skills {
     height: 1900px;
